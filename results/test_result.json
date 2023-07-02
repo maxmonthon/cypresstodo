@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-02T06:35:11.041Z",
+    "end": "2023-07-02T06:35:15.327Z",
+    "duration": 4286,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0e96bfc6-2a38-43d1-98d3-699912a9a2ab",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcypress\\todo.feature",
+      "file": "cypress\\integration\\testcypress\\todo.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "999b733a-5bb1-4be6-b829-8eac6a23731a",
+          "title": "Todo Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open to do page and verify title",
+              "fullTitle": "Todo Page Open to do page and verify title",
+              "timedOut": null,
+              "duration": 2302,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d165afa0-e4ad-4e38-9a5a-c387324b9a15",
+              "parentUUID": "999b733a-5bb1-4be6-b829-8eac6a23731a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify label of completed todo",
+              "fullTitle": "Todo Page Verify label of completed todo",
+              "timedOut": null,
+              "duration": 457,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "6eff9297-2864-4538-9d05-efc09c5128e0",
+              "parentUUID": "999b733a-5bb1-4be6-b829-8eac6a23731a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit description of todo",
+              "fullTitle": "Todo Page Edit description of todo",
+              "timedOut": null,
+              "duration": 856,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5d9cd41e-5e43-4e99-95a4-987955b8da1b",
+              "parentUUID": "999b733a-5bb1-4be6-b829-8eac6a23731a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete item in todo list",
+              "fullTitle": "Todo Page Delete item in todo list",
+              "timedOut": null,
+              "duration": 304,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "03f4a6f0-37db-444e-8e16-dec722421b69",
+              "parentUUID": "999b733a-5bb1-4be6-b829-8eac6a23731a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d165afa0-e4ad-4e38-9a5a-c387324b9a15",
+            "6eff9297-2864-4538-9d05-efc09c5128e0",
+            "5d9cd41e-5e43-4e99-95a4-987955b8da1b",
+            "03f4a6f0-37db-444e-8e16-dec722421b69"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3919,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "test_result",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "test_result",
+        "reportDir": "results/",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reporter": "mochawesome",
+  "baseUrl": "https://spiffy-taffy-d1def0.netlify.app/?fbclid=IwAR23B-3mwtbTButo1RfBwqDo3icy88Rr7GRnS40syt81WccPrRJiaGQxRwY",
+  "ignoreTestFiles": ["*.md"],
+  "watchForFileChanges": true,
+  "reporterOptions": {
+    "reportFilename":"test_result",
+    "reportDir": "results/",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "video": false,
+  "chromeWebSecurity": false,
+
+  "env":{
+    "RETRIES" : 3
+  }
+}
